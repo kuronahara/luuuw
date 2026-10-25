@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Visual_Studio.Menu;
 
 namespace luuuw
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
+            MenuRunner runner = new MenuRunner();
+            runner.Start();
         }
     }
 }
