@@ -14,6 +14,7 @@ namespace luuuw.Menu
             level1Tasks.Add(new Task01_HelloWorld());
             level1Tasks.Add(new Task02_PrimitivesMethod());
             level1Tasks.Add(new Task03_Calculator());
+            level1Tasks.Add(new Task04_Parity());
         }
         public void Start()
         {
