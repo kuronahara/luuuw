@@ -17,6 +17,7 @@ namespace luuuw.Menu
             level1Tasks.Add(new Task04_Parity());
             level1Tasks.Add(new Task05_Multiplication());
             level1Tasks.Add(new Task06_SDN());
+            level1Tasks.Add(new Task07_Reverse());
         }
         public void Start()
         {
