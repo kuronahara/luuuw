@@ -55,6 +55,7 @@
     <Compile Include="Tasks\Level1\Task05_Multiplication.cs" />
     <Compile Include="Tasks\Level1\Task06_SDN.cs" />
     <Compile Include="Tasks\Level1\Task07_Reverse.cs" />
+    <Compile Include="Tasks\Level1\Task08_Fizz.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
