@@ -21,6 +21,7 @@ namespace luuuw.Menu
             level1Tasks.Add(new Task08_Fizz());
             level1Tasks.Add(new Task09_Array());
             level1Tasks.Add(new Task10_BubIns());
+            level1Tasks.Add(new Task11_MatrixDiagonal());
         }
         public void Start()
         {
