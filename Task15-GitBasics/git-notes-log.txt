@@ -1,0 +1,18 @@
+* 2407041 feat: task 15 - add feature section to README
+* 703125e docs: task 15 - add notes file
+* faff98a feat: Task14_AgeCalculator
+* 2066049 feat: Task13_Dictionary
+* 91c06b7 feat: Task12_Palindrome
+* eb8478a feat: Task11_Matrixdiagonal
+* 0044c4d feat: Task10_BubIns
+* c547d55 feat: Task09_Array
+* 9135d37 feat: Task08_Fizz
+* 9204b4d feat: Task07_Reverse
+* 2047647 feat: Task06__SDN
+* 1c7fafa feat: Task05_Multiplication
+* 783f31c feat: Task04_Parity
+* 1c08647 feat: Task03_Calculator
+* 9aea708 feat:Task01_HelloWorld/Task02_PrimitivesMethod
+* ab01565 feat: add skeleton project
+* f70f43e Добавьте файлы проекта.
+* 9ea0d22 Добавить .gitattributes и .gitignore.
