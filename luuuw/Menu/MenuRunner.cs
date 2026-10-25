@@ -19,6 +19,7 @@ namespace luuuw.Menu
             level1Tasks.Add(new Task06_SDN());
             level1Tasks.Add(new Task07_Reverse());
             level1Tasks.Add(new Task08_Fizz());
+            level1Tasks.Add(new Task09_Array());
         }
         public void Start()
         {
