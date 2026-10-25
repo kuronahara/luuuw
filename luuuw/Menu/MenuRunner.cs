@@ -24,6 +24,7 @@ namespace luuuw.Menu
             level1Tasks.Add(new Task11_MatrixDiagonal());
             level1Tasks.Add(new Task12_Palindrome());
             level1Tasks.Add(new Task13_Dictionary());
+            level1Tasks.Add(new Task14_AgeCalculator());
         }
         public void Start()
         {
