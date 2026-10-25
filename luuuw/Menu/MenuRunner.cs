@@ -11,7 +11,9 @@ namespace luuuw.Menu
 
         public MenuRunner()
         {
-          
+            level1Tasks.Add(new Task01_HelloWorld());
+            level1Tasks.Add(new Task02_PrimitivesMethod());
+            level1Tasks.Add(new Task03_Calculator());
         }
         public void Start()
         {

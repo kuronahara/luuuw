@@ -18,7 +18,7 @@ namespace luuuw.Tasks.Level1
 
         public void Run()
         {
-            int age = 19;
+            int age = 20;
             double weight = 86.9;
             bool isStudent = true;
             string name = "Роман";
