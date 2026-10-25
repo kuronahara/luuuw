@@ -48,12 +48,12 @@
     <Compile Include="Menu\MenuRunner.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\Level1\Task01_HelloWorld.cs" />
+    <Compile Include="Tasks\Level1\Task02_PrimitivesMethod.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tasks\Level1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using luuuw.Common;
 using luuuw.Tasks.Level1;
 
-namespace luuuw
+namespace luuuw.Menu
 {
     public class MenuRunner
     {
