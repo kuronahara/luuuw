@@ -53,6 +53,7 @@
     <Compile Include="Tasks\Level1\Task02_PrimitivesMethod.cs" />
     <Compile Include="Tasks\Level1\Task03_Calculator.cs" />
     <Compile Include="Tasks\Level1\Task05_Multiplication.cs" />
+    <Compile Include="Tasks\Level1\Task06_SDN.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
