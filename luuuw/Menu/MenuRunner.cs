@@ -20,6 +20,7 @@ namespace luuuw.Menu
             level1Tasks.Add(new Task07_Reverse());
             level1Tasks.Add(new Task08_Fizz());
             level1Tasks.Add(new Task09_Array());
+            level1Tasks.Add(new Task10_BubIns());
         }
         public void Start()
         {
