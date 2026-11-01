@@ -49,6 +49,7 @@ namespace luuuw.Menu
             level2Tasks.Add(new Task31_Disposable());
             level2Tasks.Add(new Task32_Temperature());
             level2Tasks.Add(new Task33_LinqEmployees());
+            level2Tasks.Add(new Task34_GroupWords());
         }
         public void Start()
         {
