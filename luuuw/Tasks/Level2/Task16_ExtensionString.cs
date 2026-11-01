@@ -8,7 +8,7 @@ using luuuw.Extensions;
 
 namespace luuuw.Tasks.Level2
 {
-    public class Task16_StringExtensions : ITask
+    public class Task16_ExtensionsString : ITask
     {
         public string Title => "Методы расширения для string";
         public string Description => "Написать extension-методы для string и продемонстрировать их работу.";

@@ -2,9 +2,8 @@
 using System;
 using System.Diagnostics;
 using System.Text;
-using luuuw.Common;
 
-namespace Visual_Studio.Tasks.Level2
+namespace luuuw.Tasks.Level2
 {
     public class Task17_StringPerformance : ITask
     {
