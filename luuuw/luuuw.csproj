@@ -91,6 +91,7 @@
     <Compile Include="Tasks\Level3\Task39_YieldEvenNumbers.cs" />
     <Compile Include="Tasks\Level3\Task41_ParallelTasks.cs" />
     <Compile Include="Tasks\Level3\Task42_Cancellation.cs" />
+    <Compile Include="Tasks\Level3\Task43_ExceptionOrder.cs" />
     <Compile Include="Tasks\Level3\Yask40_AsyncAwait.cs" />
   </ItemGroup>
   <ItemGroup>
