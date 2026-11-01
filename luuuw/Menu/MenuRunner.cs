@@ -42,6 +42,7 @@ namespace luuuw.Menu
             level2Tasks.Add(new Task24_Animals());
             level2Tasks.Add(new Task25_Shapes());
             level2Tasks.Add(new Task26_Strategy());
+            level2Tasks.Add(new Task27_Comparisons());
         }
         public void Start()
         {
