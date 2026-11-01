@@ -35,7 +35,7 @@ namespace luuuw.Menu
             level2Tasks.Add(new Task17_StringPerformance());
             level2Tasks.Add(new Task18_TryParseVsCatch());
             level2Tasks.Add(new Task19_MyCollections());
-
+            level2Tasks.Add(new Task20_Generalizations());
         }
         public void Start()
         {

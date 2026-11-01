@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\ConsoleHelper.cs" />
+    <Compile Include="Common\GenericsHelper.cs" />
     <Compile Include="Common\ITask.cs" />
     <Compile Include="DataStructures\MyQueue.cs" />
     <Compile Include="DataStructures\MyStack.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Tasks\Level2\Task17_StringPerformance.cs" />
     <Compile Include="Tasks\Level2\Task18_TryParseVsCatch.cs" />
     <Compile Include="Tasks\Level2\Task19_MyCollections.cs" />
+    <Compile Include="Tasks\Level2\Task20_﻿Generalizations.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
