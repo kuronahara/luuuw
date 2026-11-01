@@ -1,18 +1,21 @@
 ﻿using luuuw.Common;
 using luuuw.Tasks.Level1;
+using luuuw.Tasks.Level2;
+using luuuw.Tasks.Level3;
 using System;
 using System.Collections.Generic;
-using luuuw.Tasks.Level2;
 
-namespace luuuw.Menu
+namespace Visual_Studio.Menu
 {
     public class MenuRunner
     {
         private List<ITask> level1Tasks = new List<ITask>();
         private List<ITask> level2Tasks = new List<ITask>();
+        private List<ITask> level3Tasks = new List<ITask>();
 
         public MenuRunner()
         {
+            // --- УРОВЕНЬ 1 ---
             level1Tasks.Add(new Task01_HelloWorld());
             level1Tasks.Add(new Task02_PrimitivesMethod());
             level1Tasks.Add(new Task03_Calculator());
@@ -28,9 +31,7 @@ namespace luuuw.Menu
             level1Tasks.Add(new Task13_Dictionary());
             level1Tasks.Add(new Task14_AgeCalculator());
 
-
-
-
+            // --- УРОВЕНЬ 2 ---
             level2Tasks.Add(new Task16_ExtensionsString());
             level2Tasks.Add(new Task17_StringPerformance());
             level2Tasks.Add(new Task18_TryParseVsCatch());
@@ -50,7 +51,12 @@ namespace luuuw.Menu
             level2Tasks.Add(new Task32_Temperature());
             level2Tasks.Add(new Task33_LinqEmployees());
             level2Tasks.Add(new Task34_GroupWords());
+
+            // --- УРОВЕНЬ 3 ---
+            level3Tasks.Add(new Task36_DubList());
+
         }
+
         public void Start()
         {
             bool isRunning = true;
@@ -60,10 +66,12 @@ namespace luuuw.Menu
                 Console.WriteLine("=== Практикум по C# ===");
                 Console.WriteLine("1. Уровень 1 — Базовый");
                 Console.WriteLine("2. Уровень 2 — Средний");
+                Console.WriteLine("3. Уровень 3 — Продвинутый");
                 Console.WriteLine("0. Выход");
                 Console.Write("\nВыберите уровень: ");
 
                 string choice = Console.ReadLine();
+
                 if (choice == "1")
                 {
                     ShowLevelMenu(level1Tasks, "Уровень 1: Базовый");
@@ -72,12 +80,17 @@ namespace luuuw.Menu
                 {
                     ShowLevelMenu(level2Tasks, "Уровень 2: Средний");
                 }
+                else if (choice == "3")
+                {
+                    ShowLevelMenu(level3Tasks, "Уровень 3: Продвинутый");
+                }
                 else if (choice == "0" || choice == "q")
                 {
                     isRunning = false;
                 }
             }
         }
+
         private void ShowLevelMenu(List<ITask> tasks, string levelTitle)
         {
             bool inLevel = true;
