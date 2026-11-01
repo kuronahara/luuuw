@@ -40,6 +40,7 @@ namespace luuuw.Menu
             level2Tasks.Add(new Task22_ParamsAndOverload());
             level2Tasks.Add(new Task23_Nullable());
             level2Tasks.Add(new Task24_Animals());
+            level2Tasks.Add(new Task25_Shapes());
         }
         public void Start()
         {
