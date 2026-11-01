@@ -44,6 +44,8 @@ namespace luuuw.Menu
             level2Tasks.Add(new Task26_Strategy());
             level2Tasks.Add(new Task27_Comparisons());
             level2Tasks.Add(new Task28_EqualsHashCode());
+            level2Tasks.Add(new Task29_Factory());
+
         }
         public void Start()
         {
