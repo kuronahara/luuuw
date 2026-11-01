@@ -63,6 +63,7 @@ namespace luuuw.Menu
             level3Tasks.Add(new Task42_Cancellation());
             level3Tasks.Add(new Task43_ExceptionOrder());
             level3Tasks.Add(new Task44_TodoList());
+            level3Tasks.Add(new Task45_Library());
         }
 
         public void Start()
